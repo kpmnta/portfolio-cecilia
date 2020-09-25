@@ -3,6 +3,7 @@ body, h1, ul, li, p {
     padding: 0px;
     list-style: none;
     font-family: 'Roboto', sans-serif;
+    color: #28435E;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
 
 .box {
     width: 22rem;
-    height: 500px;
+    height: 520px;
     padding-top: 20px;
     margin: auto;
     border-radius: 15px;
@@ -63,7 +64,6 @@ body {
     font-weight: normal;
     text-align: center;
     margin-top: 15px;
-    color: #28435E;
 }
 
 .resume p {
@@ -80,25 +80,24 @@ body {
 }
 
 .container ul {
-    width: 70%;
-    color: #28435E;
-}
-
-.container ul span,
-.icon {
-    cursor: pointer;
-}
-
-.container ul li {
-    border: 1px solid #28435E;
-    border-radius: 15px;
-    padding: 5px;
-    margin-bottom: 15px;
+    width: 65%;
 }
 
 .container ul li a {
+    display:inline-block;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #28435E;
+    border-radius: 15px;
     text-decoration: none;
-    color: #28435E
+    color: #28435E;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.container ul li a:hover {
+    color: #7cb8cc;
+    border: 1px solid #7cb8cc;
 }
 
 .icon {
@@ -110,3 +109,27 @@ body {
     font-size: 0.83rem;
 }
 
+.socialmidia ul {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+    
+}
+
+.social {
+    font-size: 1rem;
+    color: #28435E; 
+    padding: 0 5px;
+    transition: 0.3s;
+}
+
+.social:hover {
+    color: #7cb8cc;
+}
+
+footer p {
+    text-align: center;
+    font-size: .7rem;
+    color: #a1aaad;
+    
+}
