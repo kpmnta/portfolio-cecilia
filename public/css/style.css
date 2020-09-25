@@ -72,3 +72,41 @@ body {
     text-align: justify;
 }
 
+.container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container ul {
+    width: 70%;
+    color: #28435E;
+}
+
+.container ul span,
+.icon {
+    cursor: pointer;
+}
+
+.container ul li {
+    border: 1px solid #28435E;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #28435E
+}
+
+.icon {
+    font-size: 1rem;
+    padding: 0 10px 0 10px;
+}
+
+.small {
+    font-size: 0.83rem;
+}
+
