@@ -43,6 +43,14 @@ body {
     border: solid 5px #28435E;
 }
 
+.container-view {
+    width: 18.5rem;
+    text-align: center;
+    padding-left:10px;
+    display: flex;
+    align-items: center;
+}
+
 .view p {
     max-width: 300px;
     width: 85%;
