@@ -1,5 +1,9 @@
-body, h1, ul, li, p {
-    margin:0px;
+body,
+h1,
+ul,
+li,
+p {
+    margin: 0px;
     padding: 0px;
     list-style: none;
     font-family: 'Roboto', sans-serif;
@@ -12,7 +16,7 @@ body {
     background: linear-gradient(#A0D2E3, #28435E);
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -30,8 +34,12 @@ body {
     margin: auto;
     border-radius: 15px;
     background-color: #EDF2F5;
-    max-width: 450px; 
+    max-width: 450px;
     transition: 0.4s;
+}
+
+.box.-opened {
+    height: 585px;
 }
 
 .view {
@@ -47,7 +55,7 @@ body {
 .container-view {
     width: 18.5rem;
     text-align: center;
-    padding-left:10px;
+    padding-left: 10px;
     display: flex;
     align-items: center;
 }
@@ -93,7 +101,7 @@ body {
 }
 
 .container ul li a {
-    display:inline-block;
+    display: inline-block;
     padding: 5px;
     width: 100%;
     border: 1px solid #28435E;
@@ -122,12 +130,12 @@ body {
     display: flex;
     justify-content: center;
     margin: 15px 0 15px 0;
-    
+
 }
 
 .social {
     font-size: 1rem;
-    color: #28435E; 
+    color: #28435E;
     padding: 0 5px;
     transition: 0.3s;
 }
@@ -140,7 +148,7 @@ footer p {
     text-align: center;
     font-size: .7rem;
     color: #a1aaad;
-    
+
 }
 
 /* css accordion - sobre mim */
@@ -152,5 +160,6 @@ footer p {
     transition: 0.4s;
 }
 
-
-
+.sobre-mim.-opened {
+    display: block;
+}
