@@ -1,11 +1,11 @@
 function openAbout() {
     const show = document.getElementById("show");
     const box = document.getElementById("box");
-    if (show.style.display === "none") {
-        show.style.display = "block";
-        box.style.height = "585px";
+    if (!show.classList.contains("-opened")) {
+        show.classList.add("-opened")
+        box.classList.add("-opened")
     } else {
-        show.style.display = "none";
-        box.style.height = "520px";
+        show.classList.remove("-opened")
+        box.classList.remove("-opened")
     }
 }
