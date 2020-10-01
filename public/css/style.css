@@ -31,6 +31,7 @@ body {
     border-radius: 15px;
     background-color: #EDF2F5;
     max-width: 450px; 
+    transition: 0.4s;
 }
 
 .view {
@@ -141,3 +142,15 @@ footer p {
     color: #a1aaad;
     
 }
+
+/* css accordion - sobre mim */
+
+.sobre-mim {
+    display: none;
+    overflow: hidden;
+    padding: 0 10px 10px 10px;
+    transition: 0.4s;
+}
+
+
+
