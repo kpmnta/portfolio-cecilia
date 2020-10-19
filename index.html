@@ -14,36 +14,34 @@
 <body>
     <main>
         <div id="box" class="box">
+            <div class="logo">
+                <img src="public/images/cebarbosa.png" alt="Logo Cecilia Barbosa">
+            </div>
             <div class="view">
                 <div class="container-view">
                     <div id="typed-strings">
-                        <p>Olá! Escolha a melhor forma de conhecer o meu trabalho :)</p>
+                        <p>Seja bem-vindo ao mundo da risonha designer potiguar que gosta de piña colada e banho de chuva.</p>
                     </div>
                     <span id="typed"></span>
                 </div>
             </div>
             <div class="resume">
-                <h1 class="name">Cecília Barbosa</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ccusantium esse ducimus</p>
+                <p>Cecília Barbosa é formada em Design pela UFRN, com habilitação para a área de gráfico e produto, construiu seu portfólio trabalhando com comunicação digital - tanto interna (institucional) como corporativa.</p>
             </div>
             <div class="container">
                 <ul>
                     <li>
                         <a onclick="openAbout()" href="#"><i class="icon fas fa-ghost"></i>sobre mim</a>
-                        <p class="sobre-mim" id="show">Lorem ipsum dolor sit amet consectetur adipisicing elit
-                            ccusantium esse ducimus</p>
+                        <p class="sobre-mim" id="show">Desenvolvi sozinha um projeto de aplicativo mobile para a conclusão da graduação e trabalhei como freelancer antes de cair no universo das agências de comunicação. Atualmente trabalho com endomarketing no planejamento e produção de comunicação interna, eventos, campanhas e programas institucionais.</p>
                     </li>
                     <li>
                         <a class="links" target="_blank" href="#"><i class="icon fas fa-dice-d20"></i>meu portfólio</a>
                     </li>
                     <li>
-
-                        <a class="links" action="mailto:" href=""><i class="icon small fas fa-scroll"></i>me mande um
-                            email</a>
+                        <a class="links" action="mailto:" href=""><i class="icon small fas fa-scroll"></i>me mande um email</a>
                     </li>
                     <li>
-                        <a class="links" target="_blank" href="https://www.linkedin.com/in/cciliab/"><i
-                                class="icon fab fa-linkedin-in"></i>me adicione no linked in</a>
+                        <a class="links" target="_blank" href="https://www.linkedin.com/in/cciliab/"><i class="icon fab fa-linkedin-in"></i>me adicione no linked in</a>
                     </li>
                 </ul>
             </div>
@@ -77,16 +75,17 @@
         var typed = new Typed('#typed', {
             stringsElement: '#typed-strings',
             typeSpeed: 80,
+            showCursor: false,
         });
     </script>
     <style>
         #typed {
             color: #EDF2F5;
-            padding: 10px 0 0 10px;
+            padding-top: 10px;
             font-family: SuperMario;
             line-height: 2;
             letter-spacing: 2px;
-            font-size: 0.5rem;
+            font-size: 0.45rem;
         }
     </style>
 </body>
