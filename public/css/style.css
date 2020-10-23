@@ -1,6 +1,5 @@
 html,
 body {
-    /* height: 100%;  */
     min-height: 100vh;
 }
 
@@ -8,12 +7,14 @@ body,
 h1,
 ul,
 li,
-p {
+p,
+a {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-family: 'Roboto', sans-serif;
     color: #EA9074;
+    text-decoration: none;
 }
 
 body {
@@ -45,8 +46,6 @@ body {
 
 .box.-opened {
     height: 680px;
-    /* margin-top: 90px; */
-    /* margin-bottom: 20px; */
 }
 
 .logo {
@@ -118,7 +117,6 @@ body {
     width: 100%;
     border: 1px solid #EA9074;
     border-radius: 15px;
-    text-decoration: none;
     color: #EA9074;
     margin-bottom: 15px;
     transition: 0.3s;
@@ -160,7 +158,15 @@ footer p {
     text-align: center;
     font-size: .7rem;
     color: #a1aaad;
+}
 
+footer p a {
+    color: #828485;
+    transition: 0.3s;
+}
+
+footer p a:hover{
+    color: #a1aaad;  
 }
 
 /* css accordion - sobre mim */
